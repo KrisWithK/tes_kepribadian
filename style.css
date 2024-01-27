@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    background-image: url(assets/background/background.png);
+    background-attachment: fixed;
+}
+header h2 {
+  background: linear-gradient(to left, #61b0b7, #61b0d1 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.icon {
+    width: 50px;
+    height: 50px;
+}
+header p {
+    color: white;
+    margin: 2%;
+    text-align: justify;
+}
+.main {
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+  background: linear-gradient(to top right, #b8e0f5 0%, #0583d2 100%);
+  margin-bottom: 65px;
+  border-radius: 15px;
+  width: 95vw;
+  max-width: 600px;
+}
+.container h3 {
+  background-color: #0583d2;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.container p {
+ text-align: center;
+}
+.input p input {
+  position: absolute;
+  visibility: hidden;
+}
+label {
+  display: block;
+  padding: 15px;
+  border-radius: 20px;
+  font-weight: 300;
+}
+.input p input:checked ~ label{
+  background-color: indigo;
+  color: #61b0b7;
+}
+.button {
+  margin: 50px;
+  text-align: center;
+}
+button {
+  background-color: #6872fc;
+  padding: 20px;
+  font-size: 100%;
+  border: none;
+  border-radius: 20px;
+}
+button:hover{
+  background-color: #aab0fc;
+}
+button:active {
+  transform: scale(0.9);
+}
+#show_result {
+  background-color: white;
+  font-size: 120%;
+  margin: 20px 0;
+}
+.heading {
+  text-align: center;
+  background-color: indigo;
+  color: white;
+}
+i {
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+.reset {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  background-color: tomato;
+  color: white;
+  padding: 2px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.ending {
+  color: white;
+  text-align: justify;
+}
+.source {
+  color: white;
+  text-align: right;
+  margin: 5px;
+  font-style: italic;
+  font-size: 80%;
+}
